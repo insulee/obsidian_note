@@ -1,0 +1,22 @@
+1. UDP 통신
+	- search : SEARCHING DIBD  B \r\n!
+	- set : SETT{관련 데이터} (0x0D, 0x0A)
+	  - EX) SETT54-FF-82-00-00-00  192.168.000.201  255.255.255.000  192.168.000.001 05000 30  192.168.000.005  05000 31  DB600T  000  (0x0D, 0x0A)
+	- reset : RESET  {맥주소} \r\n
+	  - EX) RESET  54-FF-82-00-00-00 \r\n
+	- 300 Read : INFO_R  {맥주소} \r\n
+	  - EX) INFO_R  54-FF-82-00-00-00 \r\n
+	- 300 Write : INFO_W  {맥주소} \r\n
+	  - EX) INFO_W  54-FF-82-00-00-00 \r\
+	- cf> SET 관련 데이터
+		- 맥주소, Client IP, Client Gateway, Client SubnetMask, Client Port, Server/Client 여부(31- Server/30-Client), Server IP, Server Port, Wifi 모드(31-AP/30-Station), 기기 이름, Heartbeat
+2. serial 통신
+	- search : ++SET++!\[SEARCHING DIBD  B \r\n!\]
+	- set : ++SET++!\[SETT{관련 데이터} (0x0D, 0x0A)!]
+	  - EX) ++SET++!\[SETT54-FF-82-00-00-00  192.168.000.201  255.255.255.000  192.168.000.001 05000 30  192.168.000.005  05000 31  DB600T  000   (0x0D, 0x0A!]
+	- reset : ++SET++!\[RESET  {맥주소} \r\n!]
+	  - EX) ++SET++!\[RESET  54-FF-82-00-00-00 \r\n!]
+	- 300 Read : ++SET++!\[INFO_R  {맥주소} \r\n!]
+	  - EX) ++SET++!\[INFO_R  54-FF-82-00-00-00 \r\n!]
+	- 300 Write : ++SET++!\[INFO_W  {맥주소} \r\n!]
+	  - EX) ++SET++!\[INFO_W  54-FF-82-00-00-00 \r\n!]

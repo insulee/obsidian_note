@@ -1,0 +1,29 @@
+- 초기 사용자 대상 manual
+	- 초기 세팅 위주로
+	- controller 연결
+	- module 연결, 표출
+- 주로 해야할 작업들 (업체들 요청 기반)
+	- 프로토콜연결(아스키, 헥사)
+	- controller, converter 사양서
+	- Program(simulator, Dabitche, DabitNet) manual
+	- [ ] AS/CS 케이스 정리 - 주로 obsidian 50번대 @임유성차장
+- Reference
+	- [ ] Manual 또는 개발문서를 버전별로 잘 정리한 기업의 문서를 찾아보자
+- 설명/소개 방법
+	- 사진은 최소화하고 영상을 촬영하여 youtube에 올리고 링크를 걸어놓는 방식으로
+	- 홈페이지는 연구소 문서처럼 주로 교육적인 내용 위주로 업로드
+	- [ ] obsidian publish 검토
+	- [ ] 소리가 들어가야하는지 검토 
+	- Program 
+		- 화면만 보면서 설명하는 것 가능
+		- 실제 내 목소리가 들어가야 하는건지
+		- 아니면 다른 방법을 이용해 자막으로 설명을 대신할 것인지
+		- ref. 프로그램 메뉴얼 또는 사용방법을 잘 설명한 youtube
+	- Controller, Module, Converter
+		- 직접촬영 - DJI 오즈모 포켓3
+		- 여기에서는 직접 목소리가 들어가야 할 가능성이 높음
+		- 자막으로 설명을 대신한다면 그렇게
+		- ref. SMT/PCB 소개 youtube
+	- 사진
+		- controller, converter, module 등 사진이 필요, 특히 신형일수록
+		- 홈페이지/naver store 에 활용

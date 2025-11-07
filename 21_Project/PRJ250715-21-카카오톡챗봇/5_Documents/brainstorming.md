@@ -1,0 +1,8 @@
+![[chatbot_bs1.png|300]]
+![[chatbot_bs2.png|300]]
+![[chatbot_bs3.png|300]]
+![[chatbot_bs4.png|300]]
+![[chatbot_bs5.png|300]]
+![[chatbot_bs6.png|300]]
+![[chatbot_bs00.png|300]]
+![[chatbot_bs01.png|300]]

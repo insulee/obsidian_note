@@ -1,0 +1,320 @@
+# Git 버전관리에서 제외할 파일 목록
+# 카카오톡 챗봇 프로젝트용 .gitignore
+
+# ============================================
+# 운영체제 관련 파일
+# ============================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# 옵시디언 관련 파일
+# ============================================
+
+# 옵시디언 설정 폴더 (개인 설정이므로 제외)
+.obsidian/
+
+# 옵시디언 캐시 파일
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-mobile.json.backup
+.obsidian/workspace.json.backup
+
+# 옵시디언 플러그인 데이터 (개인 설정)
+.obsidian/plugins/*/data.json
+
+# 옵시디언 히스토리 파일
+.obsidian/history/
+
+# ============================================
+# 에디터 및 IDE 관련 파일
+# ============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDE (IntelliJ, PyCharm, WebStorm 등)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# ============================================
+# Python 관련 파일
+# ============================================
+
+# Python 바이트코드
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python 가상환경
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Python 패키지 관리
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python 테스트
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# ============================================
+# Node.js 관련 파일
+# ============================================
+
+# Node.js 의존성
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Node.js 패키지 관리
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Node.js 빌드 결과
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+
+# ============================================
+# 환경 변수 및 설정 파일
+# ============================================
+
+# 환경 변수 파일 (비밀번호, API 키 등)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# 설정 파일 (민감한 정보 포함 가능)
+config.local.json
+settings.local.json
+secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ============================================
+# 로그 및 임시 파일
+# ============================================
+
+# 로그 파일
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 임시 파일
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.cache/
+
+# ============================================
+# 데이터베이스 관련 파일
+# ============================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# 데이터베이스 덤프
+*.sql
+*.dump
+
+# ============================================
+# 빌드 및 배포 관련 파일
+# ============================================
+
+# 빌드 결과물
+build/
+dist/
+*.exe
+*.dll
+*.dylib
+*.so
+
+# 압축 파일
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# 대용량 미디어 파일 (선택사항)
+# ============================================
+
+# 비디오 파일 (Git LFS 사용 권장)
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+# *.wmv
+# *.flv
+
+# 대용량 이미지 파일 (선택사항)
+# *.psd
+# *.ai
+# *.sketch
+
+# 오디오 파일 (선택사항)
+# *.mp3
+# *.wav
+# *.aac
+
+# ============================================
+# 문서 관련 파일 (선택사항)
+# ============================================
+
+# 대용량 PDF 파일 (필요시 주석 해제)
+# *.pdf
+
+# Office 임시 파일
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ============================================
+# 프로젝트 특정 파일
+# ============================================
+
+# 카카오톡 챗봇 프로젝트 특정 파일
+# 필요에 따라 추가하세요
+
+# API 키 파일 (예시)
+# kakao_api_key.txt
+# openai_api_key.txt
+
+# 개인 메모 파일 (예시)
+# personal_notes.md
+# TODO_private.md
+
+# ============================================
+# 기타
+# ============================================
+
+# FreeFileSync 데이터베이스
+sync.ffs_db
+
+# 시스템 파일
+System Volume Information/
+
+# ============================================
+# 주의사항
+# ============================================
+# 
+# 1. 환경 변수 파일(.env)은 반드시 제외해야 합니다
+#    - 비밀번호, API 키 등 민감한 정보가 포함될 수 있습니다
+# 
+# 2. 옵시디언 설정(.obsidian/)은 개인 설정이므로 제외합니다
+#    - 마크다운 문서(.md)는 포함하되, 설정 파일은 제외합니다
+# 
+# 3. 대용량 파일은 Git LFS를 사용하거나 별도 저장소를 권장합니다
+#    - 비디오 파일, 대용량 이미지 등
+# 
+# 4. 프로젝트에 따라 추가로 제외할 파일을 지정할 수 있습니다
+#    - 위의 주석 처리된 항목들을 참고하세요
+# 
+# ============================================
+
