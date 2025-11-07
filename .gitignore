@@ -1,0 +1,40 @@
+# 모든 파일 제외
+*
+
+# .md 파일만 포함
+!*.md
+!**/*.md
+
+# 이미지 파일 포함
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.gif
+!**/*.svg
+
+# PDF 파일 포함
+!*.pdf
+!**/*.pdf
+
+# .gitignore 파일 포함
+!.gitignore
+
+# .gitattributes 파일 포함 (있으면)
+!.gitattributes
+
+# 계정정보 폴더 제외 (아이디/패스워드 포함)
+22_Area/22_사내관리/계정정보/
+22_Area/22_사내관리/계정정보/**
+
+# Git 설정 스크립트 포함 (선택사항)
+!setup-git-encoding.ps1
+!setup-git-commit-utf8.ps1
+
+# README 파일 포함
+!README.md
+
